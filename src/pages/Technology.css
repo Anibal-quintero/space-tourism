@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   color: white;
-  position: relative;
 }
 .technology__container {
   width: 82.8%;
@@ -21,12 +20,12 @@
 }
 .technology__content {
   display: flex;
-  margin-top: 8em;
+  align-items: center;
 }
 .technology__list {
   display: flex;
   flex-direction: column;
-  gap: 17px;
+  gap: 23px;
 }
 .technology__button {
   width: 4rem;
@@ -37,9 +36,12 @@
   border-radius: 100%;
   font-family: Bellefair;
 }
+.technology__button:hover {
+  border-color: white;
+}
 .technology__details {
   width: 27em;
-  margin-left: 35px;
+  margin: 0 80px 0 35px;
 }
 .technology__title {
   font-size: 14px;
@@ -63,12 +65,7 @@
 .technology__image {
   width: 500px;
   height: 400px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-top: 45px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
   object-fit: cover;
   aspect-ratio: 1/1;
 }

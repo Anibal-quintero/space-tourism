@@ -1,15 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navar.css";
-import { useState } from "react";
 
 const Navar = () => {
-  
-  const [activeTab, setActiveTab] = useState("/home");
 
-  const sendUrlAndPath = (patch, imageUrl) => {
-    document.body.style.backgroundImage = `url(${imageUrl})`;
-    setActiveTab(patch);
-  };
+  const location = useLocation();
 
   return (
     <header>
@@ -18,55 +12,23 @@ const Navar = () => {
       </div>
       <nav>
         <ul>
-          <li className={`${activeTab === "/home" ? "selected" : ""}`}>
-            <Link
-              to="/"
-              onClick={() =>
-                sendUrlAndPath(
-                  "/home",
-                  "/assets/home/background-home-desktop.jpg"
-                )
-              }
-            >
+          <li className={`${location.pathname === "/" ? "selected" : ""}`}>
+            <Link to="/">
               <span>00</span> HOME
             </Link>
           </li>
-          <li className={`${activeTab === "/destination" ? "selected" : ""}`}>
-            <Link
-              to="/destination"
-              onClick={() =>
-                sendUrlAndPath(
-                  "/destination",
-                  "/assets/destination/background-destination-desktop.jpg"
-                )
-              }
-            >
+          <li className={`${location.pathname === "/destination" ? "selected" : ""}`}>
+            <Link to="/destination">
               <span>01</span> DESTINATION
             </Link>
           </li>
-          <li className={`${activeTab === "/crew" ? "selected" : ""}`}>
-            <Link
-              to="/crew"
-              onClick={() =>
-                sendUrlAndPath(
-                  "/crew",
-                  "/assets/crew/background-crew-desktop.jpg"
-                )
-              }
-            >
+          <li className={`${location.pathname === "/crew" ? "selected" : ""}`}>
+            <Link to="/crew">
               <span>02</span> CREW
             </Link>
           </li>
-          <li className={`${activeTab === "/Technology" ? "selected" : ""}`}>
-            <Link
-              to="/Technology"
-              onClick={() =>
-                sendUrlAndPath(
-                  "/Technology",
-                  "/assets/technology/background-technology-desktop.jpg"
-                )
-              }
-            >
+          <li className={`${location.pathname === "/technology" ? "selected" : ""}`}>
+            <Link to="/technology">
               <span>03</span> TECHNOLOGY
             </Link>
           </li>

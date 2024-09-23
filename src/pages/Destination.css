@@ -38,20 +38,23 @@
 }
 .destination__list {
   display: flex;
-  gap: 20px;
+}
+.destination__list-item {
+  border-bottom: 2px solid transparent;
 }
 .destination__button {
-  font-size: 19px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 300;
   color: #d0d6f9;
+  margin: 0 10px 10px 10px;
 }
 .destination__title {
   text-transform: uppercase;
   font-family: Bellefair;
   font-weight: 300;
   font-size: 4.1rem;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .destination__description {
   letter-spacing: 1px;

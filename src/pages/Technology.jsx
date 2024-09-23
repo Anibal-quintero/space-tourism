@@ -1,29 +1,15 @@
 import "./Technology.css";
 import data from "../data/data.json";
-import { useEffect, useState } from "react";
+import useUpdateContent from "../hooks/useUpdateContent";
 
 const Technology = () => {
-  const [infoTechnology, setInfoTechnology] = useState({});
-  const [fade, setFade] = useState(false);
+  let initialItem;
 
-  const changeTechnology = (technology) => {
-    setInfoTechnology(technology);
-    changeContent();
-  };
-
-  useEffect(() => {
-    if (data?.technology.length > 0) {
-      setInfoTechnology(data.technology[0]);
-      changeContent();
-    }
-  }, []);
-
-  const changeContent = () => {
-    setFade(false);
-    setTimeout(() => {
-      setFade(true);
-    }, 100);
-  };
+  if (data?.technology.length > 0) {
+    initialItem = data?.technology[0];
+  }
+  const { currentItem, activeTab, fade, updateContent } =
+    useUpdateContent(initialItem);
 
   return (
     <div className="technology">
@@ -39,8 +25,10 @@ const Technology = () => {
                 {data?.technology.map((technology, index) => (
                   <li key={index} className="technology__list-item">
                     <button
-                      className="technology__button"
-                      onClick={() => changeTechnology(technology)}
+                      className={`technology__button ${
+                        activeTab === technology.name ? "selectedBg" : ""
+                      }`}
+                      onClick={() => updateContent(technology, technology.name)}
                     >
                       {index + 1}
                     </button>
@@ -53,15 +41,13 @@ const Technology = () => {
             className={`technology__details ${fade ? "fade-in" : "fade-out"}`}
           >
             <h2 className="technology__title">The terminology...</h2>
-            <h3 className="technology__subtitle">{infoTechnology.name}</h3>
-            <p className="technology__description">
-              {infoTechnology.description}
-            </p>
+            <h3 className="technology__subtitle">{currentItem.name}</h3>
+            <p className="technology__description">{currentItem.description}</p>
           </div>
           <div className="technology__image-container">
             <img
               className={`technology__image ${fade ? "fade-in" : "fade-out"}`}
-              src={infoTechnology.images?.portrait}
+              src={currentItem.images?.portrait}
               alt=""
             />
           </div>

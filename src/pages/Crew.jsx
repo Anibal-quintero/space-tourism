@@ -1,30 +1,15 @@
 import "./Crew.css";
 import data from "../data/data.json";
-import { useState } from "react";
-import { useEffect } from "react";
+import useUpdateContent from "../hooks/useUpdateContent";
 
 const Crew = () => {
-  const [infoCrew, setInfoCrew] = useState({});
-  const [fade, setFade] = useState(false);
 
-  const changeCrew = (crew) => {
-    setInfoCrew(crew);
-    changeContent();
-  };
+  let initialItem;
 
-  useEffect(() => {
-    if (data?.crew.length > 0) {
-      setInfoCrew(data?.crew[0]);
-      changeContent();
-    }
-  }, []);
-
-  const changeContent = () => {
-    setFade(false);
-    setTimeout(() => {
-      setFade(true);
-    }, 100);
-  };
+  if (data?.crew.length > 0) {
+    initialItem = data?.crew[0];
+  }
+  const { currentItem, activeTab, fade, updateContent } = useUpdateContent(initialItem);
 
   return (
     <div className="crew">
@@ -35,20 +20,22 @@ const Crew = () => {
         <div className="crew__content">
           <div className="crew__details">
             <h2 className={`crew__role ${fade ? "fade-in" : "fade-out"}`}>
-              {infoCrew.role}
+              {currentItem.role}
             </h2>
             <h3 className={`crew__name ${fade ? "fade-in" : "fade-out"}`}>
-              {infoCrew.name}
+              {currentItem.name}
             </h3>
             <p className={`crew__bio ${fade ? "fade-in" : "fade-out"}`}>
-              {infoCrew.bio}
+              {currentItem.bio}
             </p>
             <ul className="crew__list">
               {data?.crew.map((crew) => (
                 <li key={crew.name} className="crew__list-item">
                   <button
-                    className="crew__button"
-                    onClick={() => changeCrew(crew)}
+                    className={`crew__button ${
+                      crew.name === activeTab ? "selectedBg" : ""
+                    }`}
+                    onClick={() => updateContent(crew, crew.name)}
                   ></button>
                 </li>
               ))}
@@ -57,7 +44,7 @@ const Crew = () => {
           <div className="crew__image-container">
             <img
               className={`crew__image ${fade ? "fade-in" : "fade-out"}`}
-              src={infoCrew.images?.webp}
+              src={currentItem.images?.webp}
               alt=""
             />
           </div>
