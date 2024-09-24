@@ -23,6 +23,9 @@
 .destination__heading-number {
   color: #d0d6f95d;
 }
+.destination__image-container {
+  overflow: hidden;
+}
 .destination img {
   width: 23rem;
   height: 23rem;
@@ -105,10 +108,15 @@
   }
   .destination__heading {
     margin: 10px 0 0px;
+    font-size: 20px;
+  }
+  .destination__image-container {
+    display: flex;
+    justify-content: center;
   }
   .destination img {
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 15rem;
   }
   .destination__details {
     width: 100%;

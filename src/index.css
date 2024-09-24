@@ -9,6 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  background-color: #0b0e17;
 }
 ul {
   list-style-type: none;
