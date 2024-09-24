@@ -1,14 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
+import image from "../assets/shared/logo.svg";
 import "./Navar.css";
 
 const Navar = () => {
-
   const location = useLocation();
 
   return (
     <header>
       <div>
-        <img src="/assets/shared/logo.svg" alt="Logo" />
+        <img src={image} alt="Logo" />
       </div>
       <nav>
         <ul>
@@ -17,7 +17,11 @@ const Navar = () => {
               <span>00</span> HOME
             </Link>
           </li>
-          <li className={`${location.pathname === "/destination" ? "selected" : ""}`}>
+          <li
+            className={`${
+              location.pathname === "/destination" ? "selected" : ""
+            }`}
+          >
             <Link to="/destination">
               <span>01</span> DESTINATION
             </Link>
@@ -27,7 +31,11 @@ const Navar = () => {
               <span>02</span> CREW
             </Link>
           </li>
-          <li className={`${location.pathname === "/technology" ? "selected" : ""}`}>
+          <li
+            className={`${
+              location.pathname === "/technology" ? "selected" : ""
+            }`}
+          >
             <Link to="/technology">
               <span>03</span> TECHNOLOGY
             </Link>

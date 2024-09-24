@@ -1,5 +1,5 @@
 import "./Technology.css";
-import data from "../data/data.json";
+import data from "../data/data";
 import useUpdateContent from "../hooks/useUpdateContent";
 
 const Technology = () => {
@@ -8,8 +8,7 @@ const Technology = () => {
   if (data?.technology.length > 0) {
     initialItem = data?.technology[0];
   }
-  const { currentItem, activeTab, fade, updateContent } =
-    useUpdateContent(initialItem);
+  const { currentItem, activeTab, fade, updateContent } = useUpdateContent(initialItem);
 
   return (
     <div className="technology">
