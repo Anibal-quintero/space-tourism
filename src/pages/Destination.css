@@ -23,9 +23,6 @@
 .destination__heading-number {
   color: #d0d6f95d;
 }
-.destination__image-container {
-  overflow: hidden;
-}
 .destination img {
   width: 23rem;
   height: 23rem;
@@ -91,5 +88,36 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 926px) {
+  .destination__content {
+    gap: 2em;
+  }
+  .destination__container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 800px) {
+  .destination__content {
+    flex-direction: column;
+  }
+  .destination__heading {
+    margin: 10px 0 0px;
+  }
+  .destination img {
+    width: 16rem;
+    height: 16rem;
+  }
+  .destination__details {
+    width: 100%;
+  }
+  .destination__title {
+    font-size: 3rem;
+  }
+  .destination__description {
+    line-height: 20px;
+    margin: 0 0 20px 0;
   }
 }

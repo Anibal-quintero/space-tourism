@@ -47,3 +47,20 @@ header ul li a span {
 .selected {
   border-color: #fff;
 }
+@media (max-width: 800px) {
+  header {
+    padding: 0 0 0 20px;
+  }
+  header div {
+    flex-grow: 0;
+  }
+  header ul {
+    gap: 0;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 478px) {
+  header ul {
+    display: none;
+  }
+}
