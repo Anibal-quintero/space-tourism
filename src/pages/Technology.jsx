@@ -8,7 +8,8 @@ const Technology = () => {
   if (data?.technology.length > 0) {
     initialItem = data?.technology[0];
   }
-  const { currentItem, activeTab, fade, updateContent } = useUpdateContent(initialItem);
+  const { currentItem, activeTab, fade, updateContent } =
+    useUpdateContent(initialItem);
 
   return (
     <div className="technology">
@@ -35,13 +36,15 @@ const Technology = () => {
                 ))}
               </ul>
             </nav>
-          </div>
-          <div
-            className={`technology__details ${fade ? "fade-in" : "fade-out"}`}
-          >
-            <h2 className="technology__title">The terminology...</h2>
-            <h3 className="technology__subtitle">{currentItem.name}</h3>
-            <p className="technology__description">{currentItem.description}</p>
+            <div
+              className={`technology__details ${fade ? "fade-in" : "fade-out"}`}
+            >
+              <h2 className="technology__title">The terminology...</h2>
+              <h3 className="technology__subtitle">{currentItem.name}</h3>
+              <p className="technology__description">
+                {currentItem.description}
+              </p>
+            </div>
           </div>
           <div className="technology__image-container">
             <img

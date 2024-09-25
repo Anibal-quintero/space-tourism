@@ -26,7 +26,6 @@
   padding-top: 23px;
 }
 .home__description {
-  /* width: 25em; */
   letter-spacing: 1px;
   line-height: 28px;
   color: #d0d6f9;
@@ -92,5 +91,8 @@
   }
   .home__highlight {
     font-size: 75px;
+  }
+  .home__description {
+    line-height: 24px;
   }
 }

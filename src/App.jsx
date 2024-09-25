@@ -6,12 +6,14 @@ import Destination from "./pages/Destination";
 import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
 import BackgroundImage from "./components/BackgroundImage";
+import MouseFollower from "./components/MouseFollower";
 
 function App() {
   return (
     <BrowserRouter>
       <Navar />
       <BackgroundImage />
+      <MouseFollower />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />
