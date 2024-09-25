@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navar from "./components/Navar";
+import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Destination from "./pages/Destination";
 import Crew from "./pages/Crew";
@@ -11,7 +11,7 @@ import MouseFollower from "./components/MouseFollower";
 function App() {
   return (
     <BrowserRouter>
-      <Navar />
+      <Nav />
       <BackgroundImage />
       <MouseFollower />
       <Routes>
