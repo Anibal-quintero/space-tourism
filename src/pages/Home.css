@@ -38,8 +38,8 @@
   color: #000;
   background-color: #fff;
   border-radius: 100%;
-  width: 14rem;
-  height: 14rem;
+  width: 223px;
+  height: 223px;
   font-family: "Bellefair", serif;
   text-transform: uppercase;
   font-size: 30px;
@@ -61,14 +61,14 @@
 .home__explorer:hover::after {
   border-color: transparent #fff transparent #fff;
 }
-/* @keyframes spin {
+@keyframes spin {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 @media (max-width: 940px) {
   .home {
     padding: 3em 0 0 0;

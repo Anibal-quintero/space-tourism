@@ -1,15 +1,7 @@
 .mouse {
   position: fixed;
-  width: 35px;
-  height: 35px;
   z-index: 1000;
-  border:2px solid #fff;
-  background-image: url(../assets/shared/mouse.svg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 100%;
   pointer-events: none; 
-  transform: translate(-50%, -50%); 
-  transition: transform 0.1s ease-out, top 0.1s ease-out, left 0.1s ease-out; 
+  transform: scaleX(-1) rotate(-22deg) translate(8px, 4px); 
+  cursor: none;
 }

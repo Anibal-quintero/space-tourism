@@ -2,16 +2,19 @@ import { Link, useLocation } from "react-router-dom";
 import image from "../assets/shared/logo.svg";
 import open from "../assets/shared/icon-hamburger.svg";
 import close from "../assets/shared/icon-close.svg";
+import { useEffect, useState } from "react";
 import "./Nav.css";
-import { useState } from "react";
 
 const Nav = () => {
   const location = useLocation();
   const [isMoved, setIsMoved] = useState(false);
-
   const openMenu = () => {
     setIsMoved(!isMoved);
   };
+
+  useEffect(() => {
+    setIsMoved(false);
+  }, [location]);
 
   return (
     <header className="nav-header">
