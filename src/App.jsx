@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Destination from "./pages/Destination";
@@ -10,7 +10,7 @@ import MouseFollower from "./components/MouseFollower";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Nav />
       <BackgroundImage />
       <MouseFollower />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
