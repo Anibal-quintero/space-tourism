@@ -7,12 +7,14 @@ import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
 import BackgroundImage from "./components/BackgroundImage";
 import MouseFollower from "./components/MouseFollower";
+import ImagePreloader from "./components/ImagePreloader";
 
 function App() {
   return (
     <Router>
       <Nav />
       <BackgroundImage />
+      <ImagePreloader />
       <MouseFollower />
       <Routes>
         <Route path="/" element={<Home />} />
