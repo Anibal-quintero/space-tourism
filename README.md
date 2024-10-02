@@ -14,9 +14,9 @@
 
 # Sitio web de turismo espacial
 
-🪐 Mi solución para el famoso desafío de Frontend Mentor "Turismo espacial", hecho con React y CSS. Esta es una solución al [desafío del sitio web de turismo espacial en Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
+🪐 Mi solución para el famoso desafío de Frontend Mentor "Turismo espacial", hecho con React. Esta es una solución al [desafío del sitio web de turismo espacial en Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
-[Solución][solution-url] . [Página en vivo](https://space-tourism-xo25.onrender.com/)
+[Solución](url) - [Página en vivo](https://space-tourism-xo25.onrender.com/)
 
 </div>
 
@@ -81,7 +81,7 @@ Los usuarios deben poder:
 
 ### Enlaces
 
-- [Solución][solution-url]
+- [Solución](url)
 - [Página en vivo](https://space-tourism-xo25.onrender.com/)
 
 ## Mi proceso
@@ -97,7 +97,7 @@ Los usuarios deben poder:
 
 ### Lo que aprendí
 
-Este desafío fue una gran oportunidad para mantenerme en forma haciendo proyectos con React. Los estilos y las animaciones no me resultaron tan difíciles, ya que estoy acostumbrado a trabajar con React y React Router DOM. Aprendí mucho y disfruté el proceso.
+El reto de Space Tourism de Frontend Mentor fue una excelente oportunidad para mantenerme en forma con mis habilidades en React. La implementación de los estilos y la navegación no fue tan complicada, gracias a mi experiencia previa con React y React Router DOM. Creé nuevos hooks reutilizables, lo que realmente me gustó y me ayudó a optimizar el código. En general, fue un reto muy enriquecedor que me motivó a seguir mejorando.
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
 
