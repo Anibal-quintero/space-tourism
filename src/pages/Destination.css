@@ -48,6 +48,10 @@
   font-weight: 300;
   color: #d0d6f9;
   margin: 0 10px 10px 10px;
+  transition: color 100ms ease-in-out;
+}
+.destination__button:hover {
+  color: #fff;
 }
 .destination__title {
   text-transform: uppercase;
