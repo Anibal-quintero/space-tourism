@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   background-color: #0b0e17;
-  cursor: none;
+  cursor: url(./assets/shared/puntero.svg) 8 1, auto;
 }
 ul {
   list-style-type: none;
