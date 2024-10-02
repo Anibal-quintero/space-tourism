@@ -2,10 +2,15 @@
 
 <div align="center">
 
-<a href="mailto:cosmohydra17@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></img></a>
-<a href="https://www.instagram.com/cosmo_art0/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-<a href="https://www.discord.com/users/734087835472232559/"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://twitter.com/CosmoArt0"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+<a href="mailto:amezaquintero5@gmail.com">
+ <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://www.linkedin.com/in/anibal-meza-quintero-578821294/">
+ <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://portfolio-anibal-quintero.vercel.app/">
+ <img src="https://img.shields.io/badge/Sitio%20Web-1ccc88?style=for-the-badge&logo=link&logoColor=white" alt="Sitio Web" />
+</a>
 
 # Sitio web de turismo espacial
 
@@ -21,9 +26,9 @@
 
 Los usuarios deben poder:
 
-- Ver el diseño óptimo para cada una de las páginas del sitio web según el tamaño de pantalla de su dispositivo
-- Ver los estados de hover para todos los elementos interactivos en la página
 - Ver cada página y poder alternar entre las pestañas para ver nueva información
+- Vea el diseño óptimo para cada una de las páginas del sitio web dependiendo del tamaño de pantalla de su dispositivo
+- Consulte estados de desplazamiento para ver todos los elementos interactivos en la página
 
 ### Capturas de pantalla
 
@@ -77,15 +82,16 @@ Los usuarios deben poder:
 ### Enlaces
 
 - [Solución][solution-url]
-- [Página en vivo][live-page]
+- [Página en vivo](https://space-tourism-xo25.onrender.com/)
 
 ## Mi proceso
 
-### Construido con
+### Tecnologías Utilizadas
 
-- Flujo de trabajo mobile-first
-- Marcado semántico HTML5
-- [React](https://reactjs.org/) - Biblioteca JS
+- React
+- React Router DOM
+- HTML5
+- CSS
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
 
@@ -97,10 +103,7 @@ Este desafío fue una gran oportunidad para mantenerme en forma haciendo proyect
 
 ## Autor
 
-- Mi sitio web - [cosmoart.vercel.app](https://cosmoart.vercel.app)
-- Frontend Mentor - [@CosmoArt](https://www.frontendmentor.io/profile/cosmoart)
+- [Mi sitio web](https://portfolio-anibal-quintero.vercel.app/)
+- [Frontend Mentor](url)
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
-
-[live-page]: https://space-tourist.vercel.app
-[solution-url]: https://www.frontendmentor.io/solutions/space-tourism-solution-in-nextjs-OMUOrt3m__
