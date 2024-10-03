@@ -10,7 +10,7 @@
 
 🪐 Mi solución para el famoso desafío de Frontend Mentor "Turismo espacial", hecho con React. Esta es una solución al [desafío del sitio web de turismo espacial en Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
-[Solución](https://www.frontendmentor.io/solutions/space-tourism-solution-in-react-iDp0nhXJI0) . [Página en vivo](https://space-tourism-xo25.onrender.com/)
+[Solución][solucion-url] . [Página en vivo][pagina-url]
 
 </div>
 
@@ -75,8 +75,8 @@ Los usuarios deben poder:
 
 ### Enlaces
 
-- [Solución](https://www.frontendmentor.io/solutions/space-tourism-solution-in-react-iDp0nhXJI0)
-- [Página en vivo](https://space-tourism-xo25.onrender.com/)
+- [Solución][solucion-url]
+- [Página en vivo][pagina-url]
 
 ## Mi proceso
 
@@ -101,3 +101,6 @@ El reto de Space Tourism de Frontend Mentor fue una excelente oportunidad para m
 - [Frontend Mentor](https://www.frontendmentor.io/profile/Anibal-quintero)
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
+
+[pagina-url]: https://space-tourism-xo25.onrender.com/
+[solucion-url]: https://www.frontendmentor.io/solutions/space-tourism-solution-in-react-iDp0nhXJI0
