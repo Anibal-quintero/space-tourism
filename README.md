@@ -2,21 +2,15 @@
 
 <div align="center">
 
-<a href="mailto:amezaquintero5@gmail.com">
- <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://www.linkedin.com/in/anibal-meza-quintero-578821294/">
- <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://portfolio-anibal-quintero.vercel.app/">
- <img src="https://img.shields.io/badge/Sitio%20Web-1ccc88?style=for-the-badge&logo=link&logoColor=white" alt="Sitio Web" />
-</a>
+<a href="mailto:amezaquintero5@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/anibal-meza-quintero-578821294/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://portfolio-anibal-quintero.vercel.app/"><img src="https://img.shields.io/badge/Sitio%20Web-1ccc88?style=for-the-badge&logo=link&logoColor=white" alt="Sitio Web" /></a>
 
 # Sitio web de turismo espacial
 
 🪐 Mi solución para el famoso desafío de Frontend Mentor "Turismo espacial", hecho con React. Esta es una solución al [desafío del sitio web de turismo espacial en Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
-[Solución](url) - [Página en vivo](https://space-tourism-xo25.onrender.com/)
+[Solución](https://www.frontendmentor.io/solutions/space-tourism-solution-in-react-iDp0nhXJI0) . [Página en vivo](https://space-tourism-xo25.onrender.com/)
 
 </div>
 
@@ -26,9 +20,9 @@
 
 Los usuarios deben poder:
 
-- Ver cada página y poder alternar entre las pestañas para ver nueva información
-- Vea el diseño óptimo para cada una de las páginas del sitio web dependiendo del tamaño de pantalla de su dispositivo
-- Consulte estados de desplazamiento para ver todos los elementos interactivos en la página
+- Ver cada página y alternar entre las pestañas para obtener nueva información.
+- Consultar el diseño óptimo para cada una de las páginas del sitio web, dependiendo del tamaño de pantalla de su dispositivo.
+- Visualizar estados de desplazamiento para ver todos los elementos interactivos en la página.
 
 ### Capturas de pantalla
 
@@ -81,7 +75,7 @@ Los usuarios deben poder:
 
 ### Enlaces
 
-- [Solución](url)
+- [Solución](https://www.frontendmentor.io/solutions/space-tourism-solution-in-react-iDp0nhXJI0)
 - [Página en vivo](https://space-tourism-xo25.onrender.com/)
 
 ## Mi proceso
@@ -97,13 +91,13 @@ Los usuarios deben poder:
 
 ### Lo que aprendí
 
-El reto de Space Tourism de Frontend Mentor fue una excelente oportunidad para mantenerme en forma con mis habilidades en React. La implementación de los estilos y la navegación no fue tan complicada, gracias a mi experiencia previa con React y React Router DOM. Creé nuevos hooks reutilizables, lo que realmente me gustó y me ayudó a optimizar el código. En general, fue un reto muy enriquecedor que me motivó a seguir mejorando.
+El reto de Space Tourism de Frontend Mentor fue una excelente oportunidad para mantenerme en forma con mis habilidades en React. La implementación de los estilos y la navegación no fue tan complicada, gracias a mi experiencia previa con React y React Router DOM. Creé nuevos hooks reutilizables, lo que realmente me gustó y ayudó a optimizar el código. En general, fue un reto muy enriquecedor que me motivó a seguir mejorando.
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
 
 ## Autor
 
 - [Mi sitio web](https://portfolio-anibal-quintero.vercel.app/)
-- [Frontend Mentor](url)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/Anibal-quintero)
 
 <p align="right"><a href="#top">⬆️ Volver arriba</a></p>
